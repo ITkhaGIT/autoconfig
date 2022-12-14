@@ -12,11 +12,9 @@ if readlink /proc/$$/exe | grep -q "dash"; then
 	exit 1
 fi
 
-
-
 Main()
-{
-
+{ 
+echo "Main"
 }
 
 Main
