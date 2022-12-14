@@ -59,7 +59,3 @@ ShowInfo() {
    echo -e "[ Info ] - $(date +%T) - $1" >> $LOG_PATH
 
 }
-
-ShowInfo "INFO"
-ShowSuccessful "ShowSuccessful"
-ShowError "ShowError"
